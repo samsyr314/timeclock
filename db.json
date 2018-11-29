@@ -175,55 +175,6 @@
 			}
 		]
 	},
-
-	"cost-centers&tree_index=0": {
-		"cost_centers": [{
-				"id": 1540749,
-				"name": "Cost Center 3"
-			},
-			{
-				"id": 1540929,
-				"parent_id": 1540749,
-				"name": "CC3_1",
-				"payroll_code": "546",
-				"external_id": "213"
-			},
-			{
-				"id": 1540930,
-				"parent_id": 1540749,
-				"name": "CC3_2",
-				"description": "Description for CC3_2",
-				"payroll_code": "78"
-			},
-			{
-				"id": 1540931,
-				"parent_id": 1540929,
-				"name": "CC same in both",
-				"description": "CC same in both",
-				"external_id": "123",
-				"abbreviation": "123",
-				"payroll_code": "123",
-				"gl_codes": [{
-					"index": 0,
-					"value": "123"
-				}]
-			},
-			{
-				"id": 1540932,
-				"parent_id": 1540930,
-				"name": "CC3_2.1",
-				"description": "Description for CC3_2.1",
-				"payroll_code": "89",
-				"external_id": "456"
-			},
-			{
-				"id": 1540933,
-				"parent_id": 1540929,
-				"name": "CC3_1.2"
-			}
-		]
-	},	
-	
 	
 	"cost-centers?tree_index=1": {
 		"cost_centers": [
@@ -290,5 +241,56 @@
 				"description": "Director, Support"
 			}
 		]
+	},
+
+	"cost-centers&tree_index=0": {
+		"cost_centers": [{
+				"id": 1540749,
+				"name": "Cost Center 3"
+			},
+			{
+				"id": 1540929,
+				"parent_id": 1540749,
+				"name": "CC3_1",
+				"payroll_code": "546",
+				"external_id": "213"
+			},
+			{
+				"id": 1540930,
+				"parent_id": 1540749,
+				"name": "CC3_2",
+				"description": "Description for CC3_2",
+				"payroll_code": "78"
+			},
+			{
+				"id": 1540931,
+				"parent_id": 1540929,
+				"name": "CC same in both",
+				"description": "CC same in both",
+				"external_id": "123",
+				"abbreviation": "123",
+				"payroll_code": "123",
+				"gl_codes": [{
+					"index": 0,
+					"value": "123"
+				}]
+			},
+			{
+				"id": 1540932,
+				"parent_id": 1540930,
+				"name": "CC3_2.1",
+				"description": "Description for CC3_2.1",
+				"payroll_code": "89",
+				"external_id": "456"
+			},
+			{
+				"id": 1540933,
+				"parent_id": 1540929,
+				"name": "CC3_1.2"
+			}
+		]
 	}
+	
+	
+	
 }

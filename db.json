@@ -1,5 +1,182 @@
 {
-    "cost-centers": {
+	"time-entries": {
+		"time_entry_sets": [{
+				"employee": {
+					"account_id": 1
+				},
+				"start_date": "2016-05-01",
+				"end_date": "2016-05-30",
+				"time_entries": [{
+						"id": 215425665,
+						"date": "2016-05-02",
+						"type": "TIME",
+						"start_time": "2016-05-02T04:00:00.000-05:00",
+						"end_time": "2016-05-02T06:00:00.000-05:00",
+						"total": 7560000,
+						"time_off": {
+							"id": 1539588
+						},
+						"pay_category": {
+							"id": 145283
+						},
+						"premium_shift": {
+							"id": 72705
+						},
+						"cost_centers": [{
+								"index": 4,
+								"value": {
+									"id": 1542209
+								}
+							},
+							{
+								"index": 6,
+								"value": {
+									"id": 1542209
+								}
+							}
+						],
+						"custom_fields": [{
+								"index": 0,
+								"value": "value"
+							},
+							{
+								"index": 3,
+								"value": "val"
+							}
+						],
+						"is_raw": true,
+						"is_calc": true,
+						"calc_start_time": "2016-05-02T04:00:00.000-05:00",
+						"calc_end_time": "2016-05-02T06:00:00.000-05:00",
+						"calc_total": 7560000,
+						"calc_pay_category": {
+							"id": 145283
+						},
+						"calc_premium_shift": {
+							"id": 72705
+						},
+						"piecework": 10,
+						"amount": 50
+					},
+					{
+						"id": 216305027,
+						"date": "2016-05-01",
+						"type": "TIME",
+						"start_time": "2016-05-01T04:00:00.000-05:00",
+						"total": 0,
+						"is_raw": true,
+						"is_calc": false
+					}
+				]
+			},
+			{
+				"employee": {
+					"account_id": 2
+				},
+				"start_date": "2016-05-01",
+				"end_date": "2016-05-30",
+				"time_entries": [{
+						"id": 215425663,
+						"date": "2016-05-02",
+						"type": "TIME",
+						"start_time": "2016-05-02T02:00:00.000-05:00",
+						"end_time": "2016-05-02T04:00:00.000-05:00",
+						"total": 7560000,
+						"time_off": {
+							"id": 1539388
+						},
+						"pay_category": {
+							"id": 145183
+						},
+						"premium_shift": {
+							"id": 72205
+						},
+						"cost_centers": [{
+								"index": 4,
+								"value": {
+									"id": 1541209
+								}
+							},
+							{
+								"index": 6,
+								"value": {
+									"id": 1541209
+								}
+							}
+						],
+						"custom_fields": [{
+								"index": 0,
+								"value": "value"
+							},
+							{
+								"index": 3,
+								"value": "val"
+							}
+						],
+						"is_raw": true,
+						"is_calc": true,
+						"calc_start_time": "2016-05-02T04:00:00.000-05:00",
+						"calc_end_time": "2016-05-02T06:00:00.000-05:00",
+						"calc_total": 7560000,
+						"calc_pay_category": {
+							"id": 145183
+						},
+						"calc_premium_shift": {
+							"id": 72205
+						},
+						"piecework": 10,
+						"amount": 50
+					},
+					{
+						"id": 216305028,
+						"date": "2016-05-01",
+						"type": "TIME",
+						"start_time": "2016-05-01T04:00:00.000-05:00",
+						"total": 0,
+						"is_raw": true,
+						"is_calc": false
+					}
+				]
+			}
+		]
+	},
+	"employees": {
+		"employees": [{
+				"id": 1,
+				"username": "username",
+				"first_name": "first_name",
+				"last_name": "last_name",
+				"employee_id": "employee_id",
+				"external_id": "20626",
+				"primary_account_id": 1,
+				"_links": {
+					"self": "https://example.com/ta/rest/v2/companies/453313/employees/1",
+					"demographics": "https://example.com/ta/rest/v2/companies/453313/employees/1/demographics",
+					"pay-info": "https://example.com/ta/rest/v2/companies/453313/employees/1/pay-info",
+					"badges": "https://example.com/ta/rest/v2/companies/453313/employees/1/badges",
+					"profiles": "https://example.com/ta/rest/v2/companies/453313/employees/1/profiles"
+				}
+			},
+			{
+				"id": 2,
+				"username": "username 2",
+				"first_name": "first_name 2",
+				"last_name": "last_name 2",
+				"employee_id": "employee_id 2",
+				"external_id": "21265",
+				"primary_account_id": 2,
+				"_links": {
+					"self": "https://example.com/ta/rest/v2/companies/453313/employees/2",
+					"demographics": "https://example.com/ta/rest/v2/companies/453313/employees/2/demographics",
+					"pay-info": "https://example.com/ta/rest/v2/companies/453313/employees/2/pay-info",
+					"badges": "https://example.com/ta/rest/v2/companies/453313/employees/2/badges",
+					"profiles": "https://example.com/ta/rest/v2/companies/453313/employees/2/profiles"
+				}
+			}
+		]
+	},
+
+	"cost-centers&tree_index=0": {
 		"cost_centers": [{
 				"id": 1540749,
 				"name": "Cost Center 3"
@@ -17,6 +194,32 @@
 				"name": "CC3_2",
 				"description": "Description for CC3_2",
 				"payroll_code": "78"
+			},
+			{
+				"id": 1540931,
+				"parent_id": 1540929,
+				"name": "CC same in both",
+				"description": "CC same in both",
+				"external_id": "123",
+				"abbreviation": "123",
+				"payroll_code": "123",
+				"gl_codes": [{
+					"index": 0,
+					"value": "123"
+				}]
+			},
+			{
+				"id": 1540932,
+				"parent_id": 1540930,
+				"name": "CC3_2.1",
+				"description": "Description for CC3_2.1",
+				"payroll_code": "89",
+				"external_id": "456"
+			},
+			{
+				"id": 1540933,
+				"parent_id": 1540929,
+				"name": "CC3_1.2"
 			}
 		]
 	}

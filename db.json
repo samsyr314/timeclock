@@ -180,6 +180,7 @@
 		"cost_centers": [
 			{
 				"id": 222222,
+				"visible": true,
 				"external_id": "HO",
 				"abbreviation": "HO",
 				"payroll_code": "HO",
@@ -188,6 +189,7 @@
 			},
 			{
 				"id": 222223,
+				"visible": true,
 				"external_id": "Dist",
 				"abbreviation": "Dist",
 				"payroll_code": "Dist",
@@ -197,6 +199,7 @@
 			
 			{
 				"id": 12345,
+				"visible": true,
 				"parent_id": 222222,
 				"external_id": "H8528",
 				"abbreviation": "H8528",
@@ -206,6 +209,7 @@
 			},
 			{
 				"id": 12346,
+				"visible": true,
 				"parent_id": 222223,
 				"external_id": "DO625",
 				"abbreviation": "DO625",
@@ -215,6 +219,7 @@
 			},
 			{
 				"id": 12347,
+				"visible": true,
 				"parent_id": 222222,
 				"external_id": "H1065",
 				"abbreviation": "H1065",
@@ -233,6 +238,7 @@
 			},
 			{
 				"id": 12349,
+				"visible": true,
 				"parent_id": 222222,
 				"external_id": "H6205",
 				"abbreviation": "H6205",

@@ -176,7 +176,7 @@
 		]
 	},
 	
-	"cost-centers?tree_index=1": {
+	"cost-centers&tree_index=1": {
 		"cost_centers": [
 			{
 				"id": 222222,

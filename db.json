@@ -266,26 +266,26 @@
 			{
 				"id": 1540750,
 				"name": "Cost Center 2",
-				"description": "description does not belong to CC2",
+				"description": "Cost Center 2",
 				"external_id": "cc2",
 				"abbreviation": "cc2",
 				"payroll_code": "cc2",
 				"gl_codes": [{
 					"index": 0,
-					"value": "cc2"
+					"value": "cc3141592653589793"
 				}]
 				
 			},
 			{
 				"id": 1540751,
-				"name": "Cost Center 3",
-				"description": "Cost Center 3",
-				"external_id": "cc7",
-				"abbreviation": "cc7",
-				"payroll_code": "cc7",
+				"name": "Cost Center 7",
+				"description": "Cost Center 7",
+				"external_id": "cc3",
+				"abbreviation": "cc3",
+				"payroll_code": "cc3",
 				"gl_codes": [{
 					"index": 0,
-					"value": "cc7"
+					"value": "cc3"
 				}]
 			}
 		]

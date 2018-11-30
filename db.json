@@ -177,7 +177,7 @@
 	},
 	
 	"cost-centers": {
-			{
+			
 			"cost_centers": [
 				{
 					"id": 222222,
@@ -247,9 +247,8 @@
 					"name": "Director, Support",
 					"description": "Director, Support"
 				}
-			]
-			},
-			{
+			],
+			
 
 			"cost_centers": [{
 				"id": 1540749,
@@ -294,7 +293,7 @@
 				}
 				]
 
-			}
+			
 		}
 
 	

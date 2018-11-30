@@ -176,7 +176,7 @@
 		]
 	},
 	
-	"cost-centerstree_index=0": {
+	"cost-centerstree_index=1": {
 			
 			"cost_centers": [
 				{
@@ -251,7 +251,7 @@
 	},
 			
 
-	"cost-centerstree_index=1": {		
+	"cost-centerstree_index=0": {		
 		"cost_centers": [{
 				"id": 1540749,
 				"visible": true,

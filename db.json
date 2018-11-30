@@ -252,6 +252,7 @@
 	"cost-centers&tree_index=0": {
 		"cost_centers": [{
 				"id": 1540749,
+				"visible": true,
 				"name": "Cost Center 1",
 				"description": "Cost Center 1",
 				"external_id": "cc1",
@@ -265,6 +266,7 @@
 			},
 			{
 				"id": 1540750,
+				"visible": true,
 				"name": "Cost Center 2",
 				"description": "Cost Center 2",
 				"external_id": "cc2",
@@ -278,6 +280,7 @@
 			},
 			{
 				"id": 1540751,
+				"visible": true,
 				"name": "Cost Center 7",
 				"description": "Cost Center 7",
 				"external_id": "cc3",

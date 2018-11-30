@@ -177,6 +177,7 @@
 	},
 	
 	"cost-centers": {
+			{
 			"cost_centers": [
 				{
 					"id": 222222,
@@ -247,52 +248,54 @@
 					"description": "Director, Support"
 				}
 			]
+			},
+			{
 
-	"cost_centers": [{
-			"id": 1540749,
-			"visible": true,
-			"name": "Cost Center 1",
-			"description": "Cost Center 1",
-			"external_id": "cc1",
-			"abbreviation": "cc1",
-			"payroll_code": "cc1",
-			"gl_codes": [{
-				"index": 0,
-				"value": "cc1"
-			}]
+			"cost_centers": [{
+				"id": 1540749,
+				"visible": true,
+				"name": "Cost Center 1",
+				"description": "Cost Center 1",
+				"external_id": "cc1",
+				"abbreviation": "cc1",
+				"payroll_code": "cc1",
+				"gl_codes": [{
+					"index": 0,
+					"value": "cc1"
+					}]
 
-		},
-		{
-			"id": 1540750,
-			"visible": true,
-			"name": "Cost Center 2",
-			"description": "Cost Center 2",
-			"external_id": "cc2",
-			"abbreviation": "cc2",
-			"payroll_code": "cc2",
-			"gl_codes": [{
-				"index": 0,
-				"value": "cc3141592653589793"
-			}]
+				},
+				{
+					"id": 1540750,
+					"visible": true,
+					"name": "Cost Center 2",
+					"description": "Cost Center 2",
+					"external_id": "cc2",
+					"abbreviation": "cc2",
+					"payroll_code": "cc2",
+					"gl_codes": [{
+						"index": 0,
+						"value": "cc3141592653589793"
+					}]
 
-		},
-		{
-			"id": 1540751,
-			"visible": true,
-			"name": "Cost Center 7",
-			"description": "Cost Center 7",
-			"external_id": "cc3",
-			"abbreviation": "cc3",
-			"payroll_code": "cc3",
-			"gl_codes": [{
-				"index": 0,
-				"value": "cc3"
-			}]
+				},
+				{
+					"id": 1540751,
+					"visible": true,
+					"name": "Cost Center 7",
+					"description": "Cost Center 7",
+					"external_id": "cc3",
+					"abbreviation": "cc3",
+					"payroll_code": "cc3",
+					"gl_codes": [{
+						"index": 0,
+						"value": "cc3"
+					}]
+				}
+				]
+
+			}
 		}
-	]
-	
-}
-	
-	
+
 	
 }
